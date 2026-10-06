@@ -1,0 +1,1 @@
+import{j as e}from"./index-Q3ZZv5af.js";function c({eyebrow:s,title:a,text:r}){return e.jsx("section",{className:"page-hero",children:e.jsxs("div",{className:"container",children:[s&&e.jsx("p",{className:"eyebrow eyebrow-grad",children:s}),e.jsx("h1",{children:a}),r&&e.jsx("p",{children:r})]})})}export{c as P};
