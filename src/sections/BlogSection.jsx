@@ -45,8 +45,8 @@ export default function BlogSection() {
     <section className="section section-white">
       <div className="container">
         <p className="eyebrow">From our blog</p>
-        <h2 className="section-title">Insights for growing businesses</h2>
-        <p className="section-sub">Practical ideas across customer acquisition, web engineering, and IT.</p>
+        <h2 className="section-title">Smarter thinking for paid growth</h2>
+        <p className="section-sub">Practical guidance on PPC, Google Ads, Meta campaigns, and lead quality.</p>
         <PostGrid />
         <div className="center mt-40">
           <Link to="/blog" className="btn btn-orange">

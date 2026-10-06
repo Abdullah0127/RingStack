@@ -8,11 +8,11 @@ export default function WhySection() {
         <div>
           <p className="eyebrow eyebrow-grad left">Why Ringstack</p>
           <h2 className="section-title left light">
-            Human-scale technology that <span className="grad-text">grows</span> with you
+            Paid campaigns built to drive <span className="grad-text">better leads</span>
           </h2>
           <p className="section-sub left dim">
-            One small, senior team covering customer acquisition, web engineering and IT support, so your growth never
-            depends on juggling suppliers.
+            One accountable team across PPC, Google Ads, Meta Ads, and pay-per-call—measuring the journey from first
+            click through to qualified enquiry.
           </p>
           <div className="reasons">
             {reasons.map((r) => (

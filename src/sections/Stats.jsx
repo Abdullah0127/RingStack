@@ -1,9 +1,9 @@
 import { stats } from '../data/content.js'
 
 const metricContext = {
-  'Verified phone leads': 'Qualified demand for your sales team',
-  'Managed platform uptime': 'Stability for the systems you rely on',
-  'Average IT response': 'A direct line to practical support',
+  'Verified phone leads': 'Demand generated through tracked campaigns',
+  'Managed platform uptime': 'Dependable digital experiences behind every campaign',
+  'Average IT response': 'Responsive support for the systems that keep work moving',
 }
 
 export default function Stats() {
@@ -11,11 +11,11 @@ export default function Stats() {
     <section className="section reliability-section">
       <div className="container reliability-container">
         <div className="reliability-heading">
-          <p className="eyebrow eyebrow-grad">Operational Reliability</p>
-          <h2 className="section-title light">Confidence built on clear outcomes</h2>
+          <p className="eyebrow eyebrow-grad">Performance you can see</p>
+          <h2 className="section-title light">Make growth accountable</h2>
           <p className="reliability-intro">
-            Keep growth moving with qualified conversations, dependable platforms, and responsive technical support.
-            Here are the measures we keep in focus.
+            We look beyond impressions and clicks to qualified calls, campaign outcomes, and the reliable systems
+            that support your lead-generation engine.
           </p>
         </div>
         <div className="stats-grid" aria-label="Ringstack service performance">
@@ -29,7 +29,7 @@ export default function Stats() {
           ))}
         </div>
         <p className="reliability-footnote">
-          Clear reporting across lead generation, web engineering, and IT support.
+          Clear reporting across PPC, Google Ads, Meta Ads, and pay-per-call lead generation.
         </p>
       </div>
     </section>

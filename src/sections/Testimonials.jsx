@@ -22,7 +22,7 @@ export default function Testimonials() {
       <div className="container">
         <p className="eyebrow">Client feedback</p>
         <h2 className="section-title">Trusted by growing businesses</h2>
-        <p className="section-sub">Real feedback from companies that rely on us to grow their digital presence.</p>
+        <p className="section-sub">Feedback from teams looking for better-quality enquiries and dependable delivery.</p>
 
         <div className="t-row" aria-live="polite">
           {visible.map((idx, pos) => {

@@ -27,20 +27,20 @@ export default function Hero() {
       )}
       <div className="container">
         <div className="hero-copy">
-          <span className="pill">Direct Leads &amp; Tech</span>
+          <span className="pill">PPC · Meta Ads · Google Ads</span>
           <h1>
-            Technology built for <span className="accent">commercial growth</span>
+            Turn paid media into <span className="accent">qualified leads</span>
           </h1>
           <p>
-            We unite targeted pay-per-call customer acquisition, custom web engineering, and dependable UK
-            infrastructure support under one transparent partnership.
+            We plan and manage Google Ads, Meta campaigns, and pay-per-call acquisition around one goal: a
+            predictable flow of enquiries your team can turn into customers.
           </p>
           <div className="hero-actions">
             <Link to="/contact" className="btn btn-grad">
-              Reserve a Discovery Call <ArrowRight size={16} />
+              Plan my campaigns <ArrowRight size={16} />
             </Link>
             <Link to="/services" className="btn btn-outline">
-              View Service Menu
+              Explore paid media
             </Link>
           </div>
         </div>

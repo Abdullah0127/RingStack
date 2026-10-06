@@ -1,30 +1,105 @@
 // Content marked "(dummy)" is placeholder text written for this site. Replace it with your real copy.
 
-// Real content (from ringstackltd.com), except the middle pillar, which was not visible (dummy).
+// Paid media and lead generation are the primary services; web and IT remain supporting capabilities.
 export const services = [
   {
     slug: 'pay-per-call-leads',
-    icon: 'phone',
-    title: 'Pay-Per-Call Leads',
-    text: 'Verified inbound phone inquiries routed straight to your internal sales team with zero billable guesswork.',
+    icon: 'ppc',
+    title: 'PPC & Pay-Per-Call Leads',
+    text: 'Turn high-intent paid search into qualified calls, with transparent criteria, direct routing, and clear reporting.',
     detail:
-      'Turn high-intent search demand into real conversations. We build targeted campaigns, qualify calls against agreed criteria, and route the right enquiries directly to your team.',
+      'Make every paid search click work harder. We plan and manage PPC campaigns around real customer intent, then connect high-intent searches to qualified phone conversations your team can act on.',
     outcomes: [
-      'A clear definition of a billable, qualified call before campaigns launch',
-      'Campaign targeting aligned to your service area and customer profile',
-      'Direct call routing with tracking for source and quality',
-      'Regular reporting that shows what is working and where to improve',
+      'Campaigns structured around high-intent searches and commercial priorities',
+      'Call qualification agreed in advance, with transparent billable criteria',
+      'Calls routed to the right team, location, and availability window',
+      'Reporting that connects spend, call quality, and next steps',
     ],
     process: [
-      { title: 'Agree the fit', text: 'Set your ideal caller profile, coverage area, hours, and qualification rules.' },
-      { title: 'Launch with tracking', text: 'Put focused campaigns and call routing in place with attribution from day one.' },
-      { title: 'Review quality', text: 'Use call outcomes and agreed criteria to refine targeting and improve value.' },
+      { title: 'Set the target', text: 'Agree your audience, service area, budget, call criteria, and measures of success.' },
+      { title: 'Build and launch', text: 'Structure search campaigns, tracking, and call routing around customer intent.' },
+      { title: 'Optimise for quality', text: 'Review search terms and call outcomes to improve lead quality and efficiency.' },
     ],
     bullets: [
-      'Verified inbound calls from targeted campaigns',
-      'Calls routed directly to your sales team',
-      'Call tracking and clear reporting',
-      'Pay only for calls that meet agreed criteria',
+      'Google Ads search campaign management',
+      'Call tracking, routing, and agreed qualification',
+      'Search-term and negative-keyword optimisation',
+      'Transparent reporting on spend and call quality',
+    ],
+  },
+  {
+    slug: 'google-ads',
+    icon: 'ppc',
+    title: 'Google Ads',
+    text: 'Reach people actively searching for your services with well-structured, measurable Google Ads campaigns.',
+    detail:
+      'Capture demand at the moment people are looking. We plan and manage Google Ads around the services, locations, and customer intent that matter to your business, with conversion tracking and ongoing optimisation built in.',
+    outcomes: [
+      'Account and campaign structure aligned to services and locations',
+      'Search, Performance Max, or remarketing activity selected for a clear purpose',
+      'Conversion tracking for calls, forms, and meaningful actions',
+      'Search-term reviews and budget decisions guided by lead quality',
+    ],
+    process: [
+      { title: 'Audit and plan', text: 'Review the account, audience, offer, landing pages, and measurement setup.' },
+      { title: 'Launch deliberately', text: 'Build focused campaigns with clear targeting, creative, and conversion tracking.' },
+      { title: 'Improve performance', text: 'Use search terms and downstream lead feedback to refine spend and messaging.' },
+    ],
+    bullets: [
+      'Google Search and remarketing campaigns',
+      'Keyword, location, and audience strategy',
+      'Conversion and call tracking setup',
+      'Ongoing optimisation and reporting',
+    ],
+  },
+  {
+    slug: 'meta-ads',
+    icon: 'social',
+    title: 'Meta Ads',
+    text: 'Create demand and generate enquiries on Facebook and Instagram with audience-led campaigns and creative testing.',
+    detail:
+      'Get in front of the right people before they start searching. We build Facebook and Instagram campaigns around a clear offer, useful creative, careful audience selection, and a lead follow-up plan that gives enquiries a next step.',
+    outcomes: [
+      'Campaign objectives matched to awareness, consideration, or lead capture',
+      'Audience and creative tests designed to produce useful learning',
+      'Lead forms or landing pages with a clear hand-off to your team',
+      'Measurement that looks beyond cheap clicks to enquiry quality',
+    ],
+    process: [
+      { title: 'Shape the offer', text: 'Define the audience, message, proof points, and next action for each campaign.' },
+      { title: 'Test creative', text: 'Launch focused variations and learn which messages earn qualified attention.' },
+      { title: 'Scale with evidence', text: 'Review lead quality and follow-up outcomes before increasing investment.' },
+    ],
+    bullets: [
+      'Facebook and Instagram campaign management',
+      'Audience, placement, and creative testing',
+      'Lead forms and landing-page journeys',
+      'Lead quality and follow-up reporting',
+    ],
+  },
+  {
+    slug: 'lead-generation',
+    icon: 'content',
+    title: 'Lead Generation',
+    text: 'A joined-up acquisition system that turns paid media attention into measurable, sales-ready enquiries.',
+    detail:
+      'Build a more dependable pipeline by joining audience strategy, paid campaigns, conversion journeys, and follow-up. We focus on the complete path from first impression to qualified lead—not just the ad platform metrics.',
+    outcomes: [
+      'A clear ideal-customer profile and agreed definition of a qualified lead',
+      'Channel mix across Google Ads, Meta Ads, and pay-per-call activity',
+      'Conversion journeys and tracking that make performance visible',
+      'Regular feedback between marketing and sales to improve lead quality',
+    ],
+    process: [
+      { title: 'Find the opportunity', text: 'Understand your goals, audience, offer, current funnel, and lead economics.' },
+      { title: 'Connect the journey', text: 'Align campaigns, landing experiences, tracking, and lead hand-off.' },
+      { title: 'Learn and grow', text: 'Review cost and quality together, then invest more in the sources that convert.' },
+    ],
+    bullets: [
+      'Lead strategy and channel planning',
+      'Google and Meta campaign coordination',
+      'Landing-page and conversion journey recommendations',
+      'Lead qualification, tracking, and feedback loops',
     ],
   },
   {
@@ -86,47 +161,45 @@ export const stats = [
   { value: '<15 mins', label: 'Average IT response' },
 ]
 
-// (dummy)
 export const reasons = [
   {
     color: 'orange',
-    title: 'Transparent by default',
-    text: 'Clear scope, clear pricing and clear reporting. You always know what you are paying for and what it delivers.',
+    title: 'Optimise for qualified leads',
+    text: 'Measure enquiries that fit your service and audience—not just clicks, impressions, or cheap form fills.',
   },
   {
     color: 'pink',
-    title: 'Pay for real conversations',
-    text: 'Our pay-per-call model means you invest in verified, qualified inbound calls — not clicks or guesswork.',
+    title: 'Make every channel earn its place',
+    text: 'Use Google Ads to capture intent and Meta Ads to build demand, with clear roles for each campaign.',
   },
   {
     color: 'purple',
-    title: 'UK-based support',
-    text: 'Hands-on technical help from a team based in London, with remote coverage for international clients.',
+    title: 'Know where budget goes',
+    text: 'Clear tracking and reporting connect media spend to calls, enquiries, and sales-team feedback.',
   },
   {
     color: 'blue',
-    title: 'One accountable partner',
-    text: 'Lead generation, web engineering and IT support under one roof, so nothing falls between suppliers.',
+    title: 'Improve with evidence',
+    text: 'Test targeting, creative, landing pages, and follow-up—then scale what proves valuable.',
   },
 ]
 
-// (dummy)
 export const steps = [
   {
-    title: 'Discovery call',
-    text: 'We learn your goals, current setup and sales process in a focused, no-pressure conversation.',
+    title: 'Set the growth target',
+    text: 'Agree your ideal customer, offer, lead criteria, budget, and the business result campaigns need to support.',
   },
   {
-    title: 'Scope & proposal',
-    text: 'You receive a clear scope, transparent pricing and agreed success measures. No hidden extras.',
+    title: 'Build the campaign plan',
+    text: 'Choose the right mix of PPC, Google Ads, Meta Ads, and pay-per-call for your audience and sales journey.',
   },
   {
-    title: 'Launch',
-    text: 'We switch on call routing, build your platform or onboard your systems, and keep you updated.',
+    title: 'Launch with measurement',
+    text: 'Connect campaign setup, conversion tracking, landing journeys, and a clear lead hand-off.',
   },
   {
-    title: 'Measure & improve',
-    text: 'Regular reporting on calls, uptime and response times, with practical next steps.',
+    title: 'Optimise for quality',
+    text: 'Review cost and lead quality together, share learnings, and direct investment toward what converts.',
   },
 ]
 
@@ -157,146 +230,148 @@ export const testimonials = [
 
 export const posts = [
   {
-    slug: 'verify-calls-before-you-spend',
-    title: 'How to verify calls before you spend on lead generation',
-    excerpt: 'A practical framework for measuring inbound quality and making smarter marketing decisions.',
+    slug: 'ppc-lead-campaign-measurement',
+    aliases: ['verify-calls-before-you-spend'],
+    title: 'PPC lead generation: measure quality, not just clicks',
+    excerpt: 'A practical measurement framework for Google Ads, Meta Ads, and pay-per-call campaigns.',
     image: '/images/hero-team.jpg',
     date: '12 Aug 2025',
     read: '4 min read',
-    tag: 'Strategy',
+    tag: 'Lead Generation',
     introduction:
-      'A ringing phone is not automatically a good lead. Before investing in call generation, agree what a useful conversation looks like, how it will be measured, and what happens when a call does not meet the brief.',
+      'A click or form submission is only an early signal. To understand whether PPC is creating business value, connect campaign activity to the quality and outcomes of the leads your team actually handles.',
     sections: [
       {
-        heading: 'Define a qualified call before launch',
+        heading: 'Agree what a qualified lead means',
         paragraphs: [
-          'Start with the customer you can genuinely help. Write down the service requested, the locations you cover, the hours you can answer, and any minimum requirements. Keep the definition specific enough to apply consistently.',
-          'Agree practical exclusions too: wrong-number calls, existing-customer support, sales solicitations, and calls outside your service area may need different treatment.',
+          'Describe the customer you can help, the services and locations you cover, and the information your sales team needs to take a next step. Keep the definition specific enough that marketing and sales can apply it consistently.',
+          'For calls, agree how to handle wrong numbers, existing customers, out-of-area enquiries, and calls that do not meet your agreed criteria before a campaign goes live.',
         ],
       },
       {
-        heading: 'Measure outcomes, not just volume',
+        heading: 'Connect platform data to sales outcomes',
         paragraphs: [
-          'Call volume is a useful activity measure, but it does not tell you whether the campaign is creating commercial value. Track answer rate, qualified-call rate, missed calls, and the next step taken by your team.',
-          'Use a shared reporting window and a consistent call-review process. This helps separate genuine campaign issues from short-term changes in availability or sales follow-up.',
+          'Google and Meta report useful delivery signals, but those signals do not show whether a lead was a good fit. Track calls, forms, qualified leads, response time, and the next step taken by the sales team.',
+          'Use consistent conversion definitions and a shared reporting window. That makes comparisons between channels and campaigns more meaningful.',
         ],
       },
       {
-        heading: 'Close the feedback loop',
+        heading: 'Feed lead quality back into optimisation',
         paragraphs: [
-          'Give the campaign team timely, structured feedback on call quality. A short outcome code and a note about the reason for rejection are far more actionable than a general impression.',
-          'Review the criteria together as the business learns. The goal is not to move the goalposts after the fact, but to make the original agreement more accurate with evidence.',
+          'Give campaign managers timely, structured feedback about lead fit and outcomes. A brief reason for rejection is more useful than a general impression that leads feel weak.',
+          'Use that evidence to refine search terms, audiences, creative, offers, and landing journeys. Change the plan based on patterns, not a handful of unusual enquiries.',
         ],
         points: [
-          'Keep qualification rules visible to marketing and sales',
-          'Review a representative sample of calls',
-          'Record missed-call and follow-up outcomes',
-          'Agree changes before applying them to billing or reporting',
+          'Define calls and forms that count as qualified',
+          'Track lead source through to sales feedback',
+          'Record missed calls and follow-up outcomes',
+          'Optimise budget against quality as well as cost',
         ],
       },
     ],
-    takeaway: 'Good call measurement makes expectations clear for everyone: the campaign team, the sales team, and the people paying for growth.',
+    takeaway: 'The strongest PPC reporting connects spend to qualified conversations and useful next steps—not just platform activity.',
   },
   {
-    slug: 'build-a-site-that-converts',
-    title: 'What a conversion-focused website should do for service businesses',
-    excerpt: 'Design, messaging and tracking choices that help your site turn attention into booked calls.',
+    slug: 'google-ads-search-campaigns',
+    aliases: ['build-a-site-that-converts'],
+    title: 'Google Ads: build a search campaign around intent',
+    excerpt: 'Structure keywords, ads, landing pages, and conversion tracking around what customers are ready to do.',
     image: '/images/why-ringstack.jpg',
     date: '28 Jul 2025',
     read: '5 min read',
-    tag: 'Web',
+    tag: 'Google Ads',
     introduction:
-      'A business website should make it easy for the right customer to understand your offer and take the next step. A conversion-focused site is not a collection of tricks; it is a clear, dependable experience built around user intent.',
+      'Google Ads can put your business in front of people actively looking for a solution. Strong results start with matching campaign structure and landing-page experience to the intent behind each search.',
     sections: [
       {
-        heading: 'Make the value easy to understand',
+        heading: 'Organise around services and search intent',
         paragraphs: [
-          'Visitors should quickly see who you help, what problem you solve, and why your approach is credible. Use concrete language that reflects the questions customers actually ask.',
-          'Give each important audience a clear path. If every service and audience competes for the same headline and call to action, the page becomes harder to use.',
+          'Group keywords by the service, location, and need they represent. This makes it easier to write relevant ads, control budgets, and identify which searches are generating suitable enquiries.',
+          'Use search-term reviews to find irrelevant traffic and new opportunities. Negative keywords help protect budget from searches that do not match the offer.',
         ],
       },
       {
-        heading: 'Remove friction from the next step',
+        heading: 'Match the ad to the landing page',
         paragraphs: [
-          'Make contact options visible and predictable. Forms should ask only for information needed to respond, while phone links and booking actions should work cleanly on mobile.',
-          'Use page structure to support a decision: explain the offer, answer likely concerns, establish trust, and then repeat a relevant next step.',
+          'The landing page should continue the promise made in the ad. Make the service, coverage, and next step clear, answer the most important questions, and remove unnecessary distractions.',
+          'Keep calls to action easy to find on mobile. Forms should ask for enough information to qualify and respond without adding needless friction.',
         ],
       },
       {
-        heading: 'Treat performance as part of the experience',
+        heading: 'Track conversions you can act on',
         paragraphs: [
-          'Slow pages, broken layouts, and inaccessible controls undermine trust. Build around responsive layouts, compressed assets, semantic structure, and keyboard-friendly interactions from the start.',
-          'After launch, measure useful actions rather than vanity metrics. Combine analytics with customer feedback and sales outcomes to prioritise the next improvement.',
+          'Set up conversion tracking for valuable actions such as qualified calls, completed forms, and booked consultations. Check that tracking is accurate before using it to make budget decisions.',
+          'Pair platform data with sales feedback. Cost per lead is useful, but lead-to-opportunity and lead-to-sale rates help show which campaigns create real value.',
         ],
         points: [
-          'A clear message for a defined audience',
-          'Fast, mobile-first layouts',
-          'Accessible and predictable navigation',
-          'Reliable conversion tracking and ongoing iteration',
+          'Separate campaigns by service, location, and intent',
+          'Write ads that make a specific, credible promise',
+          'Align each landing page with its search theme',
+          'Review search terms, lead quality, and conversion accuracy',
         ],
       },
     ],
-    takeaway: 'The best conversion improvements usually come from making the right action clearer and the experience around it more dependable.',
+    takeaway: 'A useful Google Ads structure connects the search, the ad, and the landing page—and measures what happens after the click.',
   },
   {
-    slug: 'keep-it-support-from-derailing-growth',
-    title: 'Keeping IT support resilient without slowing down your sales team',
-    excerpt: 'The infrastructure habits that protect uptime while preserving momentum across the business.',
-    image: '/images/avatar-priya.jpg',
+    slug: 'meta-ads-creative-and-lead-quality',
+    aliases: ['keep-it-support-from-derailing-growth'],
+    title: 'Meta Ads: balance creative testing with lead quality',
+    excerpt: 'Use clear offers, thoughtful creative tests, and sales feedback to generate better enquiries on Facebook and Instagram.',
+    image: '/images/why-ringstack.jpg',
     date: '07 Jun 2025',
     read: '3 min read',
-    tag: 'IT',
+    tag: 'Meta Ads',
     introduction:
-      'When everyday technology gets in the way, the impact spreads quickly: interrupted customer service, delayed work, and avoidable risk. Reliable IT support combines a helpful response when things go wrong with steady work to prevent repeat problems.',
+      'Meta Ads can introduce your offer to people before they actively search for it. Sustainable lead generation depends on more than audience targeting: the offer, creative, lead experience, and follow-up all influence the quality of enquiries.',
     sections: [
       {
-        heading: 'Give people a clear route to help',
+        heading: 'Start with the customer and the offer',
         paragraphs: [
-          'Staff should know where to raise an issue, what information helps, and when they can expect an update. Acknowledgement and ownership matter, even when a full fix takes longer.',
-          'Simple priority definitions help the team distinguish a business-wide outage from a routine request without making every ticket feel urgent.',
+          'Be specific about the people you want to reach and the problem your service solves. A clear offer helps the audience recognise relevance and gives creative a focused message.',
+          'Choose the campaign objective to match the intended action. Lead forms and website journeys have different trade-offs, so decide based on qualification needs and the team’s ability to follow up.',
         ],
       },
       {
-        heading: 'Prevent repeat interruptions',
+        heading: 'Test creative to learn, not just to rotate',
         paragraphs: [
-          'Look for patterns in recurring incidents. A repeated access problem, unstable device, or unreliable process often deserves a root-cause fix rather than another quick reset.',
-          'Keep core systems maintained with appropriate patching, tested backups, documented access, and monitoring that reaches someone able to act.',
+          'Test a small number of meaningful differences: the hook, proof point, format, or call to action. Changing too many things at once makes it harder to understand why performance changed.',
+          'Review performance over an appropriate period and against a clear goal. Do not declare a winner based on a short-lived spike or inexpensive but unqualified leads.',
         ],
       },
       {
-        heading: 'Make resilience a routine',
+        heading: 'Make lead follow-up part of the campaign',
         paragraphs: [
-          'Resilience is not a single product or emergency document. It is a set of small, maintained practices that reduce the chance and impact of disruption.',
-          'Review the most important business services regularly: who owns them, how they are recovered, and what your team should do if they are unavailable.',
+          'A campaign cannot deliver its full value if new enquiries wait too long for a response. Agree who owns each lead, how quickly the team should respond, and what happens after an unanswered call.',
+          'Feed sales outcomes back into campaign decisions. This helps distinguish a genuinely valuable audience from one that merely submits a form.',
         ],
         points: [
-          'Clear support ownership and escalation',
-          'Routine patching and account access reviews',
-          'Backups with recovery checks',
-          'A short, usable continuity plan for critical systems',
+          'Test one clear creative hypothesis at a time',
+          'Make the offer and next step easy to understand',
+          'Set a prompt, consistent lead response process',
+          'Use qualified-lead and sales outcomes to guide optimisation',
         ],
       },
     ],
-    takeaway: 'Responsive support solves today’s issue; good operational practice makes tomorrow’s interruption less likely.',
+    takeaway: 'On Meta, creative earns attention—but relevant offers and disciplined follow-up turn that attention into better leads.',
   },
 ]
 
-// (dummy)
 export const faqs = [
   {
-    q: 'How does pay-per-call lead generation work?',
-    a: 'We run targeted campaigns that drive inbound phone calls to your sales team. Each call is verified against agreed criteria, and you only pay for calls that meet them.',
+    q: 'Which paid advertising channels do you manage?',
+    a: 'We focus on PPC and lead generation across Google Ads, Meta Ads (Facebook and Instagram), and pay-per-call campaigns. We recommend a channel mix based on your audience, offer, and sales process.',
   },
   {
-    q: 'What counts as a verified call?',
-    a: 'A verified call meets the criteria we agree up front, such as a minimum call length, a relevant enquiry and a caller in your service area.',
+    q: 'How do you measure lead quality?',
+    a: 'We agree what qualifies before launch, then track calls and forms alongside sales feedback and follow-up outcomes. This helps optimise toward suitable opportunities rather than inexpensive but irrelevant enquiries.',
   },
   {
-    q: 'Do you support businesses outside the UK?',
-    a: 'Our IT support is UK-focused, but we work with international clients remotely on lead generation and web engineering.',
+    q: 'Should we use Google Ads or Meta Ads?',
+    a: 'Google Ads is suited to capturing existing search intent; Meta Ads can build demand and reach audiences based on interests and behaviours. Many businesses benefit from a considered mix, but the right choice depends on your offer and customer journey.',
   },
   {
-    q: 'How quickly can we get started?',
-    a: 'After a discovery call and an agreed scope, most projects begin within one to two weeks.',
+    q: 'What do you need before a campaign can launch?',
+    a: 'We start with your goals, target audience, service areas, budget, offer, and current tracking. We will identify any gaps in landing pages or lead follow-up before recommending a launch plan.',
   },
 ]

@@ -2,7 +2,7 @@
 export const site = {
   name: 'Ringstack',
   fullName: 'Ringstack Ltd',
-  tagline: 'Pay-per-call customer acquisition, web development, and UK IT infrastructure support.',
+  tagline: 'PPC, Google Ads, Meta Ads, and qualified lead generation for ambitious businesses.',
   strapline: 'Human-scale technology',
   email: 'hello@ringstack.co.uk',
   phone: '+44 (0) 20 7946 0912',

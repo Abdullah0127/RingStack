@@ -8,15 +8,16 @@ export default function About() {
     <>
       <PageHero
         eyebrow="About us"
-        title="Your growth partner"
-        text="We combine strategy, creativity, and technology so your brand stands out and your business grows — without the fluff."
+        title="Your paid growth partner"
+        text="We help ambitious teams bring more structure, focus, and accountability to paid media and lead generation."
       />
       <section className="section section-white">
         <div className="container narrow">
           <p className="lead">{site.tagline}</p>
           <p>
-            From websites and SEO to ads and content, we keep it simple, focused, and built around what actually
-            works for you. {site.fullName} is a company registered in England &amp; Wales with registration number{' '}
+            Our work centres on PPC, Google Ads, Meta Ads, and pay-per-call campaigns—connecting the right audience,
+            message, and follow-up to create qualified opportunities. Web and IT expertise support the campaign
+            experience where needed. {site.fullName} is a company registered in England &amp; Wales with registration number{' '}
             {site.regNumber}.
           </p>
         </div>

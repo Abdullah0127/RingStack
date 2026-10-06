@@ -7,17 +7,17 @@ export default function CtaSection() {
       <div className="container">
         <div className="cta">
           <p className="eyebrow eyebrow-grad">Get started</p>
-          <h2>Build your direct pipeline</h2>
+          <h2>Ready to make paid media work harder?</h2>
           <p>
-            Explore our live service menu to select your required technical scope or book a direct strategy call with
-            our senior engineering team.
+            Tell us about your goals, audience, and current campaigns. We’ll help you find a practical next step for
+            PPC and lead generation.
           </p>
           <div className="hero-actions center-actions">
             <Link to="/services" className="btn btn-grad">
-              Explore Service Menu
+              Explore campaign services
             </Link>
             <Link to="/contact" className="btn btn-outline">
-              Book a strategy call <ArrowRight size={16} />
+              Plan a discovery call <ArrowRight size={16} />
             </Link>
           </div>
         </div>

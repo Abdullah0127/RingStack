@@ -6,9 +6,9 @@ export default function Services() {
   return (
     <>
       <PageHero
-        eyebrow="What we do"
-        title="Services that actually move the needle"
-        text="We focus on the channels and tactics that drive visibility, leads, and sales — without the fluff."
+        eyebrow="Paid media & lead generation"
+        title="Turn ad spend into real opportunities"
+        text="Plan and improve PPC, Google Ads, Meta Ads, and pay-per-call campaigns with qualified leads—not vanity metrics—as the goal."
       />
       <section className="section section-light">
         <div className="container">

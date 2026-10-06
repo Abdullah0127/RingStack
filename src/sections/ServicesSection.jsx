@@ -23,11 +23,11 @@ export default function ServicesSection() {
   return (
     <section className="section section-light">
       <div className="container">
-        <p className="eyebrow">Core Pillars</p>
-        <h2 className="section-title">Three distinct growth paths</h2>
+        <p className="eyebrow">Performance marketing</p>
+        <h2 className="section-title">More of the right leads, from the right channels</h2>
         <p className="section-sub">
-          Engineered to deliver verified inbound inquiries, resilient web architecture, and dependable technical
-          operations.
+          PPC, Google Ads, Meta Ads, and pay-per-call campaigns planned around qualified enquiries and accountable
+          growth. Website and IT support are available as complementary capabilities.
         </p>
         <ServiceGrid />
       </div>
