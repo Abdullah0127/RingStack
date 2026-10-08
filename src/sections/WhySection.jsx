@@ -25,8 +25,8 @@ export default function WhySection() {
         </div>
         <div className="why-media">
           <Media
-            src="/images/why-ringstack.jpg"
-            alt="Ringstack team working together on a project"
+            src="/images/why-ringstack-v2.jpg"
+            alt="Business professionals discussing a project around a table"
             width={640}
             height={640}
           />

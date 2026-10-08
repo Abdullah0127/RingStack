@@ -1,4 +1,4 @@
-// Content marked "(dummy)" is placeholder text written for this site. Replace it with your real copy.
+// Shared page content.
 
 // Paid media and lead generation are the primary services; web and IT remain supporting capabilities.
 export const services = [
@@ -154,12 +154,7 @@ export const services = [
   },
 ]
 
-// Real content.
-export const stats = [
-  { value: '14,500+', label: 'Verified phone leads' },
-  { value: '99.95%', label: 'Managed platform uptime' },
-  { value: '<15 mins', label: 'Average IT response' },
-]
+export const stats = []
 
 export const reasons = [
   {
@@ -203,30 +198,7 @@ export const steps = [
   },
 ]
 
-// (dummy)
-export const testimonials = [
-  {
-    name: 'Priya Shah',
-    company: 'Northgate Home Services',
-    image: '/images/avatar-priya.jpg',
-    quote:
-      'The calls we receive are genuinely qualified. Our sales team now spends its time closing, not chasing.',
-  },
-  {
-    name: 'Daniel Reeves',
-    company: 'Harlow & Reeves Legal',
-    image: '/images/avatar-daniel.jpg',
-    quote:
-      'Their IT team responds as quickly as promised, and our new website loads in a flash. Dependable from day one.',
-  },
-  {
-    name: 'Sophie Clarke',
-    company: 'Brightwell Logistics',
-    image: '/images/avatar-sophie.jpg',
-    quote:
-      'One partner for leads, web and IT support has simplified how we work. Clear reporting and no surprises.',
-  },
-]
+export const testimonials = []
 
 export const posts = [
   {
@@ -234,7 +206,7 @@ export const posts = [
     aliases: ['verify-calls-before-you-spend'],
     title: 'PPC lead generation: measure quality, not just clicks',
     excerpt: 'A practical measurement framework for Google Ads, Meta Ads, and pay-per-call campaigns.',
-    image: '/images/hero-team.jpg',
+    image: '/images/hero-team-v2.jpg',
     date: '12 Aug 2025',
     read: '4 min read',
     tag: 'Lead Generation',
@@ -276,7 +248,7 @@ export const posts = [
     aliases: ['build-a-site-that-converts'],
     title: 'Google Ads: build a search campaign around intent',
     excerpt: 'Structure keywords, ads, landing pages, and conversion tracking around what customers are ready to do.',
-    image: '/images/why-ringstack.jpg',
+    image: '/images/blog-analytics.jpg',
     date: '28 Jul 2025',
     read: '5 min read',
     tag: 'Google Ads',
@@ -318,7 +290,7 @@ export const posts = [
     aliases: ['keep-it-support-from-derailing-growth'],
     title: 'Meta Ads: balance creative testing with lead quality',
     excerpt: 'Use clear offers, thoughtful creative tests, and sales feedback to generate better enquiries on Facebook and Instagram.',
-    image: '/images/why-ringstack.jpg',
+    image: '/images/blog-social.jpg',
     date: '07 Jun 2025',
     read: '3 min read',
     tag: 'Meta Ads',

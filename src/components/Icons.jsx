@@ -102,9 +102,9 @@ export const LogoMark = ({ size = 34 }) => (
   <svg width={size} height={size} viewBox="0 0 40 40" aria-hidden="true" focusable="false">
     <defs>
       <linearGradient id="logo-grad" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stopColor="#ff7a2f" />
-        <stop offset=".5" stopColor="#ec4899" />
-        <stop offset="1" stopColor="#6366f1" />
+        <stop offset="0" stopColor="#244c45" />
+        <stop offset=".5" stopColor="#6d9688" />
+        <stop offset="1" stopColor="#abcbbb" />
       </linearGradient>
     </defs>
     <circle cx="20" cy="20" r="15" fill="none" stroke="url(#logo-grad)" strokeWidth="6" />
@@ -127,7 +127,7 @@ const sv = {
 const serviceIcons = {
   phone: (
     <svg {...sv}>
-      <rect x="6" y="6" width="36" height="36" rx="10" fill="#ffedd5" stroke="#f97316" />
+      <rect x="6" y="6" width="36" height="36" rx="10" fill="#e7eee8" stroke="#47766a" />
       <g transform="translate(12 12)">
         <path
           d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"
@@ -160,16 +160,16 @@ const serviceIcons = {
   ),
   content: (
     <svg {...sv}>
-      <rect x="9" y="6" width="26" height="36" rx="3" fill="#ede9fe" stroke="#8b5cf6" />
-      <path d="M15 16h14M15 23h14M15 30h8" stroke="#8b5cf6" />
+      <rect x="9" y="6" width="26" height="36" rx="3" fill="#e7eee8" stroke="#47766a" />
+      <path d="M15 16h14M15 23h14M15 30h8" stroke="#47766a" />
       <circle cx="37" cy="14" r="6" fill="#fde68a" stroke="#f59e0b" />
     </svg>
   ),
   ppc: (
     <svg {...sv}>
-      <rect x="6" y="8" width="30" height="22" rx="3" fill="#ffedd5" stroke="#f97316" />
-      <path d="M12 18h12M12 24h8" stroke="#f97316" />
-      <path d="M28 26l14 6-6 2-2 6z" fill="#f97316" stroke="#c2410c" />
+      <rect x="6" y="8" width="30" height="22" rx="3" fill="#e7eee8" stroke="#47766a" />
+      <path d="M12 18h12M12 24h8" stroke="#47766a" />
+      <path d="M28 26l14 6-6 2-2 6z" fill="#47766a" stroke="#c2410c" />
     </svg>
   ),
   shop: (
@@ -182,10 +182,10 @@ const serviceIcons = {
   ),
   social: (
     <svg {...sv}>
-      <rect x="12" y="4" width="24" height="40" rx="5" fill="#fce7f3" stroke="#ec4899" />
+      <rect x="12" y="4" width="24" height="40" rx="5" fill="#e7eee8" stroke="#6d9688" />
       <path
         d="M24 31s-6-4-6-8a3.2 3.2 0 0 1 6-1.5A3.2 3.2 0 0 1 30 23c0 4-6 8-6 8z"
-        fill="#ec4899"
+        fill="#6d9688"
         stroke="none"
       />
     </svg>
