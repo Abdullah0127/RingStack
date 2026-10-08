@@ -4,7 +4,7 @@ export const site = {
   fullName: 'Ringstack',
   tagline: 'PPC, Google Ads, Meta Ads, and qualified lead generation for ambitious businesses.',
   strapline: 'Human-scale technology',
-  email: 'hello@',
+  email: 'hello@ringstack.com',
   phone: '07737 139740',
   phoneHref: '+447737139740',
   location: 'Office 7641, 58 Peregrine Road, Hainault, Ilford, Essex, IG6 3SZ',
